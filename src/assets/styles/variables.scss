@@ -1,0 +1,10 @@
+$background: #141414;
+$accent: #ff0f82;
+$text: #fff;
+$textMuted: #d3d3d3;
+
+@mixin flex-container($jc, $ai) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+}
